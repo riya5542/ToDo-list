@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: white;
+    height:70%;
+    width:50%;
+    text-align: center;
+    padding:33px;
+    margin-left:24%;
+    margin-top:15%;
+}
+input{
+    width:270px;
+    padding:8px;
+    border:2px solid black;
+    font-size:19px;
+    
+}
+button{
+    width:10%;
+    padding:8px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius:2px;
+    font-size:19px;
+}
+.text ul{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+    
+}
+.text ul i{
+    cursor: pointer;
+    position: absolute;
+    right:10px;
+}
+@media (max-width:600px) {
+    button{
+       
+       flex-direction: column;
+    }
+    
+}
